@@ -1,0 +1,73 @@
+/*--FONTS--*/
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Libre Baskerville', serif;
+color: #000;
+}
+body, button {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+/*--HANDY CLASSES--*/
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-center-h {
+  justify-content: center;
+}
+.flex-center-v {
+  align-items: center;
+}
+
+/*--MAIN--*/
+html{
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-image: url("../images/migos-bg3.jpg");
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  margin: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.title-wrap {
+  margin-top: 5%;
+}
+.title-wrap h1 {
+  font-weight: 400;
+  border-bottom: 2px solid;
+}
+.button-container {
+
+width: 70%;
+margin: 50px auto;
+max-width: 900px;
+}
+@media screen and (max-width: 500px) {
+  .button-container {
+    width: 100%;
+  }
+}
+button {
+    background-color: rgba(255, 174, 25, 0.9);
+    border: none;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background-color: rgba(255, 174, 25, 1);
+}
