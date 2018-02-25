@@ -43,7 +43,7 @@ body {
 .button-container {
 
 width: 70%;
-margin: 50px auto;
+margin: 5% auto;
 max-width: 900px;
 }
 @media screen and (max-width: 500px) {
