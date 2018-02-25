@@ -25,7 +25,6 @@ html{
 }
 
 body {
-  min-height: 100%;
   background-image: url("../images/migos-bg3.jpg");
   background-position: center 10%;
   background-repeat: no-repeat;
