@@ -58,6 +58,7 @@ soundProps.forEach(function(element) {
   audio.id = element.soundID;
   var button = document.createElement('button');
   button.classList = element.soundID;
+  button.setAttribute("input-type", "button");
   button.textContent = element.soundName;
   button.onclick = function(){
     document.getElementById(element.soundID).play();
